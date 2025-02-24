@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Tcl: improper error handling within procedures. The `bug.tcl` file shows a procedure that uses `error` to handle out-of-bounds index access.  However, this causes the calling procedure to terminate abruptly.  The solution, in `bugSolution.tcl`, shows how to handle the error more gracefully using `catch`.
